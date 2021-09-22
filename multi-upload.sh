@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# looks all files in current directory and upload to artifactory server
+
 for file in *;
 do
 if ["$file" != *".sh"]; then
